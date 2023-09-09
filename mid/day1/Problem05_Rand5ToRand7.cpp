@@ -28,7 +28,7 @@ int rand1ToM(int m){
 }
 
 //它的作用是将一个十进制整数转换为任意进制（m 进制）表示，并将每一位的数字存储在一个向量（vector）中。
-vector<int> getMSysNum(int value,int m){
+vector<int> getMSysNum(int value,int m){//value是目标值
     vector<int>res(32);
     int index=res.size()-1;
     while(value!=0){
