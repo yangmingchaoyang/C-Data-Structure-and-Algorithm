@@ -7,7 +7,7 @@ template <typename T>
 class MyHeap {
 private:
     std::vector<T> heap;
-    std::unordered_map<T, int> indexMap;
+    std::unordered_map<T,int> indexMap;
     int heapSize;
     std::function<bool(const T&, const T&)> comparator;
 
